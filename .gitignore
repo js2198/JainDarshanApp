@@ -5,9 +5,11 @@ __pycache__/
 
 # C extensions
 *.so
-
+pyvenv.cfg
 # Distribution / packaging
 .Python
+Lib/
+Include/
 Scripts/
 build/
 develop-eggs/
@@ -128,3 +130,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+node_modules/
+
+.vscode/

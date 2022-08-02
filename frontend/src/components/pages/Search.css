@@ -1,0 +1,22 @@
+.search-container{
+  background: url('/images/gujarat.jpg') center center/cover no-repeat;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+  object-fit: contain;
+  opacity:1.0;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .searchinput{
+    margin-top: 1.5rem;
+    
+  }
+
+}
+
